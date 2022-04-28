@@ -19980,10 +19980,18 @@
       },
       "address": "0x06Dd86040B7F1d5b95788177a8e088159b38a451",
       "transactionHash": "0x01e37be8bd2b585603d56a36d7d77134b06ffdf3aa36a9e549342f5a540260cc"
+    },
+    "1666700000": {
+      "events": {},
+      "links": {
+        "PoseidonT3": "0x447a20Cad0cD768316c454ad59C967Fe83863FF1"
+      },
+      "address": "0x49130F0a2502632Fde8140A081e36A6898E81a02",
+      "transactionHash": "0x98f87b19ccc9c147338f4df57d29f07d3fa7c2383df0235ec7b3d6c135655cac"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2022-04-25T20:17:12.678Z",
+  "updatedAt": "2022-04-28T02:53:56.460Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "The incremental tree allows to calculate the root hash each time a leaf is added, ensuring the integrity of the tree.",

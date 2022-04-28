@@ -54,7 +54,7 @@ useEffect(() => {
     async function getAvailableFund() {
         try {
             const result = await ZKPayroll.methods.getAvailableFund().call({from:accounts[0]})
-            const _etherVal = web3.utils.fromWei(result, 'ether')
+            const _etherVal = web3.utils.fromWei(result, 'ONE')
             if (_etherVal == 0){
                 setavailableFund(0)
             }

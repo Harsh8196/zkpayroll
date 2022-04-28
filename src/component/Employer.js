@@ -143,6 +143,9 @@ useEffect(() => {
         setErrorMessage('')
         try {
             const _weiValue = web3.utils.toWei(fundAmount,"ether")
+            const _weiValue_string = web3.utils.toWei(fundAmount.toString(),"ether")
+            console.log(_weiValue_string)
+            console.log(_weiValue)
             const result = await ZKPayroll.methods.addfundToContract().send({ from: accounts[0],value:_weiValue })
             // console.log(result)
             setErrorMessage("Fund Added successfully.")
